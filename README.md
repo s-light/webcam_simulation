@@ -11,4 +11,4 @@ prepare:
 `$ ./setup_v4l2loopback.sh`
 
 start test source:  
-`$ ./setup_v4l2loopback.sh`
+`$ ./start_testsrc.sh`
