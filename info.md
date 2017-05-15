@@ -13,12 +13,7 @@
 `ffplay -f lavfi -i "testsrc=size=1280x720:rate=30"`
 
 ### testsrc to v4l2loopback
-`ffmpeg -f lavfi -i "testsrc=size=640x480:rate=30" -f v4l2 -vcodec rawvideo -pix_fmt yuv420p /dev/video40`
+`ffmpeg -f lavfi -i "testsrc=size=1280x720:rate=30" -f v4l2 -vcodec rawvideo -pix_fmt yuv420p /dev/video40`
 
 
 `ffmpeg -loop 1 -re -i foo.jpg -f v4l2 -vcodec rawvideo -pix_fmt yuv420p /dev/video1`
-
-
-ffmpeg -f lavfi -i "testsrc=size=640x480:rate=30" -f v4l2 -vcodec rawvideo -pix_fmt yuyv422 /dev/video41
-
-ffmpeg -f lavfi -i "testsrc=size=640x480:rate=30" -f v4l2 -vcodec rawvideo -pix_fmt rgb24 /dev/video42
