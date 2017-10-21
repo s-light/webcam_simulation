@@ -1,0 +1,22 @@
+<portvideo>
+    <camera driver="multicam" id="0">
+        <capture format="mjpeg" width="600" height="360" fps="30" color="true" flip_h="false" flip_v="false"/>
+        <settings/>
+        <frame width="600" height="360" xoff="0" yoff="0" mode="-1"/>
+        <childcamera driver="default" id="0">
+            <capture format="mjpeg" width="320" height="240" fps="30" color="true" flip_h="false" flip_v="false"/>
+            <settings/>
+            <frame x="100" y="0" width="200" height="200" xoff="-110" yoff="-30" mode="-1"/>
+        </childcamera>
+        <childcamera driver="default" id="19">
+            <capture format="mjpeg" width="320" height="240" fps="30" color="true" flip_h="false" flip_v="false"/>
+            <settings exposure="auto"/>
+            <frame x="300" y="0" width="300" height="200" xoff="-10" yoff="-30" mode="-1"/>
+        </childcamera>
+        <childcamera driver="default" id="20">
+            <capture format="mjpeg" width="320" height="240" fps="30" color="true" flip_h="false" flip_v="false"/>
+            <settings exposure="auto"/>
+            <frame x="100" y="200" width="240" height="140" xoff="-20" yoff="-50" mode="-1"/>
+        </childcamera>
+    </camera>
+</portvideo>
