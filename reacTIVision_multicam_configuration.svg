@@ -56,6 +56,17 @@
          id="rect4802"
          style="display:inline;opacity:1;fill:#ffffff;fill-opacity:0.96875;stroke:none;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4565">
+      <rect
+         y="199.10416"
+         x="2.645834"
+         height="95.250008"
+         width="158.75"
+         id="rect4567"
+         style="display:inline;opacity:1;fill:#f8f8f8;fill-opacity:1;stroke:none;stroke-width:2.64583349;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -65,10 +76,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="156.08529"
-     inkscape:cy="315.17107"
+     inkscape:cx="228.02889"
+     inkscape:cy="294.17346"
      inkscape:document-units="px"
-     inkscape:current-layer="g4737"
+     inkscape:current-layer="layer2"
      showgrid="true"
      units="px"
      inkscape:showpageshadow="false"
@@ -122,18 +133,21 @@
      id="layer2"
      inkscape:label="canvas"
      style="display:inline"
-     transform="translate(0,-52.916667)"
-     sodipodi:insensitive="true">
+     transform="translate(0,-52.916667)">
     <g
-       id="g4776"
-       transform="translate(23.8125,-135.60415)">
+       id="canvas"
+       transform="translate(23.8125,-135.60415)"
+       inkscape:export-filename="./canvas_with_cams.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <rect
          y="199.10416"
          x="2.6458342"
          height="95.250008"
          width="158.75"
          id="rect4508"
-         style="opacity:1;fill:#000000;fill-opacity:1;stroke:#04ff5e;stroke-width:2.64583349;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:#04ff5e;stroke-width:2.64583349;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         clip-path="url(#clipPath4565)" />
       <text
          id="text4576-2"
          y="277.8624"
